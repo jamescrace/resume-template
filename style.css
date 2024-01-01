@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+main {
+    max-width: 800px; /* Adjust the max-width as needed */
+    width: 100%;
+
+}
+
+header {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+
+
+}
+
+header div {
+    margin-top: 10px;
+}
+
+header p {
+    margin: 5px;
+}
+
+header a {
+    margin: 5px;
+    color: #007BFF; /* Light blue color for hyperlinks */
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    align-item: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* print.css */
+@media print {
+    /* Adjust styles for printing */
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        page-break-after: avoid;
+    }
+    .hidePrint {
+        display: none;
+    }
+
+    @page {
+        size: letter;
+    }
+
+}
+
